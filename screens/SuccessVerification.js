@@ -5,35 +5,38 @@ import PageContainer from '../components/PageContainer'
 import { images } from '../constants'
 import Button from '../components/Button'
 
+// Let's validate the forms
 const SuccessVerification = ({ navigation }) => {
-  return (
-    <SafeAreaView style={{flex: 1}}>
-        <PageContainer>
-            <View style={{
-                flex: 1,
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginHorizontal: 22
-                }}>
+    return (
+        <SafeAreaView style={{ flex: 1 }}>
+            <PageContainer>
+                <View
+                    style={{
+                        flex: 1,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        marginHorizontal: 22,
+                    }}
+                >
                     <Image
-                      source={images.success}
-                      resizeMode='contain'
-                      style={{
-                        marginBottom: 40
-                      }}
+                        source={images.success}
+                        resizeMode="contain"
+                        style={{
+                            marginBottom: 40,
+                        }}
                     />
                     <Button
-                     title="FINISH"
-                     filled
-                     onPress={()=>navigation.navigate('Home')}
-                     style={{
-                        width: '100%'
-                     }}
+                        title="FINISH"
+                        filled
+                        onPress={() => navigation.navigate('Home')}
+                        style={{
+                            width: '100%',
+                        }}
                     />
-            </View>
-        </PageContainer>
-    </SafeAreaView>
-  )
+                </View>
+            </PageContainer>
+        </SafeAreaView>
+    )
 }
 
 export default SuccessVerification

@@ -1,11 +1,11 @@
-import GetStarted from "./GetStarted";
-import Home from "./Home";
-import Login from "./Login";
-import OnboardingStarter from "./OnboardingStarter";
-import OTPVerification from "./OTPVerification";
-import Register from "./Register";
-import ResetPassword from "./ResetPassword";
-import SuccessVerification from "./SuccessVerification";
+import GetStarted from './GetStarted'
+import Home from './Home'
+import Login from './Login'
+import OnboardingStarter from './OnboardingStarter'
+import OTPVerification from './OTPVerification'
+import Register from './Register'
+import ResetPassword from './ResetPassword'
+import SuccessVerification from './SuccessVerification'
 
 export {
     GetStarted,
@@ -15,5 +15,5 @@ export {
     OTPVerification,
     Register,
     ResetPassword,
-    SuccessVerification
+    SuccessVerification,
 }
