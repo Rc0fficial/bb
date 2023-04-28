@@ -28,7 +28,7 @@ const SuccessVerification = ({ navigation }) => {
                     <Button
                         title="FINISH"
                         filled
-                        onPress={() => navigation.navigate('Home')}
+                        onPress={() => navigation.navigate('BottomTabNavigation')}
                         style={{
                             width: '100%',
                         }}
