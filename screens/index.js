@@ -23,5 +23,5 @@ export {
     Profile,
     Search,
     DonationRequest,
-    Report
+    Report,
 }
