@@ -138,7 +138,7 @@ const Home = () => {
                         color: COLORS.secondaryBlack,
                     }}
                 >
-                    Donation request
+                    Donation request test
                 </Text>
                 <DonationCard
                     name="Amir Hamza"

@@ -79,12 +79,12 @@ export const donationRequests = [
         postedDate: '5 min',
     },
     {
-        name: 'Amir Hamza',
+        name: 'Habib',
         location: 'Apollo Hospital',
         postedDate: '5 min',
     },
     {
-        name: 'Amir Hamza',
+        name: 'Testing',
         location: 'Apollo Hospital',
         postedDate: '5 min',
     },

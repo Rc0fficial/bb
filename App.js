@@ -121,6 +121,13 @@ export default function App() {
                         headerShown: false,
                     }}
                 />
+                <Stack.Screen
+                    name="ChatScreen"
+                    component={GetStarted}
+                    options={{
+                        headerShown: false,
+                    }}
+                />
             </Stack.Navigator>
         </NavigationContainer>
     )

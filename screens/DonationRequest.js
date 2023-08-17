@@ -34,21 +34,29 @@ const DonationRequest = ({ navigation }) => {
                         color={COLORS.black}
                     />
                 </TouchableOpacity>
-                <Text style={{ ...FONTS.h4 }}>Donation Request</Text>
+                <Text style={{ ...FONTS.h4 }}>Donation Request one</Text>
             </View>
         )
+    }
+
+    function handleDonationCardPress(donationRequest) {
+        navigation.navigate('Chat', { donationRequest })
     }
 
     function renderContent() {
         return (
             <ScrollView>
                 {donationRequests.map((donationRequest, index) => (
-                    <DonationCard
+                    <TouchableOpacity
                         key={index}
-                        name={donationRequest.name}
-                        location={donationRequest.location}
-                        postedDate={donationRequest.postedDate}
-                    />
+                        onPress={() => handleDonationCardPress(donationRequest)}
+                    >
+                        <DonationCard
+                            name={donationRequest.name}
+                            location={donationRequest.location}
+                            postedDate={donationRequest.postedDate}
+                        />
+                    </TouchableOpacity>
                 ))}
             </ScrollView>
         )
