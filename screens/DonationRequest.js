@@ -34,13 +34,13 @@ const DonationRequest = ({ navigation }) => {
                         color={COLORS.black}
                     />
                 </TouchableOpacity>
-                <Text style={{ ...FONTS.h4 }}>Donation Request one</Text>
+                <Text style={{ ...FONTS.h4 }}>Donation Request Test</Text>
             </View>
         )
     }
 
     function handleDonationCardPress(donationRequest) {
-        navigation.navigate('Chat', { donationRequest })
+        navigation.navigate('Chat', { donationRequest }) // Change 'ChatScreen' to 'Chat'
     }
 
     function renderContent() {
