@@ -49,6 +49,7 @@ export default function App() {
         }
     }, [fontsLoaded])
 
+
     
 
     if (!fontsLoaded) {
