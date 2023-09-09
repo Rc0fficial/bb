@@ -63,7 +63,7 @@ export default function App() {
                 initialRouteName={
                     isFirstLaunch ? 'OnboardingStarter' : 'GetStarted'
                 }
-                
+
             >
                 <Stack.Screen
                     name="OnboardingStarter"
@@ -73,6 +73,7 @@ export default function App() {
                     }}
                 />
                 <Stack.Screen
+                
                     name="BottomTabNavigation"
                     component={BottomTabNavigation}
                     options={{
