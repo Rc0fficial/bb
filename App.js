@@ -40,7 +40,7 @@ export default function App() {
         bold: require('./assets/fonts/Poppins-Bold.ttf'),
         medium: require('./assets/fonts/Poppins-Medium.ttf'),
         regular: require('./assets/fonts/Poppins-Regular.ttf'),
-        
+
         semiBold: require('./assets/fonts/Poppins-SemiBold.ttf'),
     })
 
@@ -63,6 +63,7 @@ export default function App() {
                 initialRouteName={
                     isFirstLaunch ? 'OnboardingStarter' : 'GetStarted'
                 }
+                
             >
                 <Stack.Screen
                     name="OnboardingStarter"
