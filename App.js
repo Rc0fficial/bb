@@ -70,8 +70,9 @@ export default function App() {
                     component={OnboardingStarter}
                     options={{
                         headerShown: false,
-
                         
+
+
                     }}
                 />
                 <Stack.Screen
