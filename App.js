@@ -67,15 +67,12 @@ export default function App() {
             >
                 <Stack.Screen
                     name="OnboardingStarter"
-                    
                     component={OnboardingStarter}
                     options={{
                         headerShown: false,
-
                     }}
                 />
                 <Stack.Screen
-
                 
                     name="BottomTabNavigation"
                     component={BottomTabNavigation}
