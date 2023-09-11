@@ -63,9 +63,10 @@ export default function App() {
                 initialRouteName={
                     isFirstLaunch ? 'OnboardingStarter' : 'GetStarted'
                 }
+                
 
             >
-                
+
 
                 <Stack.Screen
                     name="OnboardingStarter"
