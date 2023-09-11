@@ -64,11 +64,10 @@ export default function App() {
                     isFirstLaunch ? 'OnboardingStarter' : 'GetStarted'
                 }
 
-                
+
 
 
             >
-
 
                 <Stack.Screen
                     name="OnboardingStarter"
