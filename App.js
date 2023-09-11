@@ -63,8 +63,9 @@ export default function App() {
                 initialRouteName={
                     isFirstLaunch ? 'OnboardingStarter' : 'GetStarted'
                 }
-                
 
+
+                
             >
 
 
