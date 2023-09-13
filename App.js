@@ -69,7 +69,8 @@ export default function App() {
 
             >
 
-                
+
+
 
                 <Stack.Screen
                     name="OnboardingStarter"
