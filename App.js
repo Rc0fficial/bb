@@ -76,8 +76,9 @@ export default function App() {
 
                     }}
                 />
-                <Stack.Screen
                 
+                <Stack.Screen
+
                     name="BottomTabNavigation"
                     component={BottomTabNavigation}
                     options={{
