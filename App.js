@@ -74,11 +74,12 @@ export default function App() {
                         headerShown: false,
 
 
+                        
 
                     }}
 
 
-                    
+
 
                 />
 
