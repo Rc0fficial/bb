@@ -13,7 +13,6 @@ import {
 
 
 
-
     SuccessVerification,
 
 } from './screens'
