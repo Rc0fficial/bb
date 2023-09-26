@@ -12,7 +12,6 @@ import {
 
 
 
-
     SuccessVerification,
 
 } from './screens'
