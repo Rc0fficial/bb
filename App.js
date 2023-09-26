@@ -8,7 +8,6 @@ import {
     OnboardingStarter,
     Register,
     ResetPassword,
-
     SuccessVerification,
 
 } from './screens'
