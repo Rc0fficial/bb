@@ -82,7 +82,6 @@ export default function App() {
 
 
 
-
                 />
 
                 <Stack.Screen
