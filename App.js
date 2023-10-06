@@ -8,11 +8,12 @@ import {
     OnboardingStarter,
     Register,
     ResetPassword,
-    
+
     SuccessVerification,
     
 } from './screens'
 import { useFonts } from 'expo-font'
+
 
 import * as SplashScreen from 'expo-splash-screen'
 import { useCallback, useEffect, useState } from 'react'
