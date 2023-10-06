@@ -16,6 +16,7 @@ import * as SplashScreen from 'expo-splash-screen'
 import { useCallback, useEffect, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import BottomTabNavigation from './navigation/BottomTabNavigation'
+
 import ChatScreen from "./screens/ChatScreen"
 
 SplashScreen.preventAutoHideAsync()
