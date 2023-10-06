@@ -12,6 +12,7 @@ import {
     
 } from './screens'
 import { useFonts } from 'expo-font'
+
 import * as SplashScreen from 'expo-splash-screen'
 import { useCallback, useEffect, useState } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
