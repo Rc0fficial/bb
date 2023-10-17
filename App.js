@@ -9,7 +9,6 @@ import {
     Register,
     ResetPassword,
 
-
     SuccessVerification,
 
 } from './screens'
