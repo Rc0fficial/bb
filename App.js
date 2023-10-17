@@ -10,7 +10,6 @@ import {
     ResetPassword,
 
 
-    
     SuccessVerification,
 
 } from './screens'
