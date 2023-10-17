@@ -11,7 +11,6 @@ import {
 
     SuccessVerification,
 
-
 } from './screens'
 import { useFonts } from 'expo-font'
 
